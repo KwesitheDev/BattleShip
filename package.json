@@ -1,0 +1,31 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "BattleShip game || https://www.theodinproject.com/lessons/node-path-javascript-battleship",
+  "main": ".src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.25.9",
+    "@babel/plugin-transform-unicode-property-regex": "^7.25.9",
+    "@babel/preset-env": "^7.25.9",
+    "@babel/preset-modules": "^0.1.6",
+    "@testing-library/jest-dom": "^6.6.2",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^29.7.0",
+    "mini-css-extract-plugin": "^2.9.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
